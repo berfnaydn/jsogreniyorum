@@ -1,0 +1,131 @@
+      html
+     {
+	height: 100%; 
+	margin: 0px; 
+	padding: 0px;
+      }
+        body{
+            background-color: #FFFFFF;
+        }
+        .menu{
+            padding:0px;
+            margin:0px;
+           
+          
+        }
+        #renk{
+             background-color: #DBE2EF;
+            height: 735px;
+             margin-left: 150px;
+            margin-right: 300px;
+           
+        }
+        
+        .menu ul{
+            padding:0px;
+            margin:0px;
+            list-style: none;
+            position: fixed;
+            width:250px;
+            height: 100%;
+            background-color:#3F72AF;
+            
+            
+        }
+         .menu ul li{
+            display: block;
+            margin-top: 3px;
+        }
+        .menu ul li a{
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            line-height: 30px;
+            height: 40px;
+            min-width: 200px;
+            background-color: #112D4E;
+            color:#FFFFE0;
+        }
+        li a:hover{
+            background-color:#DBE2EF;
+        }
+        
+        .menu li ul{
+            /*ikinci yan homework1 kısmı*/
+             position:absolute;
+             list-style:none;
+              left:250px;
+               width:250px;
+               display:none;
+               top:-50px;
+             background-color:  #DBE2EF;
+        }
+        .menu li ul li ul{
+            /* ödev başlıkları kısmı */
+            display: none;
+            position: absolute; 
+            /* arkadaki bveyaz çizgiye uygun gidiyor kutular*/
+            height: 1000px;
+            width: 300px;
+          
+            background-color:  #DBE2EF;
+            
+        }
+        
+        li:hover ul{
+            display: block;
+        }
+        li ul li:hover ul{
+            display: block;
+        }
+        * html ul li{
+            float :left;
+            height: 1%;
+        }
+        #daireselimg{
+      	    width: 120px;
+	         height: 120px;
+	        margin-top: 50px;
+	        border-radius: 50%;
+            border: 5px solid black;
+       }
+        #dairesel{
+            height: 70%;
+	        width: 100%;
+	       text-align: center;
+            
+        }
+        .wallpaper{
+            position: relative;
+            border: 1px solid pink;
+            width: 250px;
+            height: 200px;
+            background:url(../assets/d3c0e0f3083f3c92f11b84b601d5c5d7.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+      .yazi{
+
+           margin-left: 300px;
+margin-right: 150px;
+         
+           
+    
+       }
+.p{
+ 
+           margin-left: 4px;
+          font-size: 20px;
+
+}
+.baslik{
+
+     margin-left: 270px;
+   
+ 
+    
+}
+.kutu{
+    border:3px solid black;
+}
